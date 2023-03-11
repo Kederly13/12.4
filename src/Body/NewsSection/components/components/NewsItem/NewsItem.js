@@ -7,21 +7,24 @@ class NewsItem extends Component {
         super(props)
         this.state = {
             newsActive : false
-        }
+        };
     }
+
     showNews = () => {
         this.setState({ 
             newsActive : !this.state.newsActive
         })
-    }
+    };
+
     render() {
+        
         return (
             <div>
                 <button onClick={this.showNews}>Click me</button>
                 {this.state.newsActive ? <InfoBlock/> : null}
             </div>
-        )       
-    };
+        );       
+    }
 }
 
 

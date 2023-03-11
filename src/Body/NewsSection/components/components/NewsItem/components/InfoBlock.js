@@ -1,5 +1,4 @@
-import classes from './InfoBlock.module.css'
-
+import classes from './InfoBlock.module.css';
 
 const InfoBlock = ({ topic, headline, text}) => (
     <div className='NewsItem'>

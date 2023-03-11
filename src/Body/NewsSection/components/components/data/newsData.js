@@ -34,4 +34,7 @@ const newsData = [
         text: "Get ready to feel refreshed and revitalized with our new soap bar! Infused with natural ingredients, our soap will leave your skin feeling soft and nourished. Try it today and experience the difference in your skin's texture and appearance!"
     
     }
-]
+];
+
+export { newsData };
+

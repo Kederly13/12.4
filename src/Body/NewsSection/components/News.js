@@ -1,14 +1,16 @@
-import { NewsItem } from './components/NewsItem.js';
-import { NewsData } from '../data/newsData.js';
+import { NewsItem } from './components/NewsItem/NewsItem.js';
+import { InfoBlock } from './components/NewsItem/components/InfoBlock.js'
+import { newsData } from './components/data/newsData.js';
 
 const News = () => (
-    NewsData.map(({ topic, headline, text}) => (
-        <NewsItem
-            topic = {topic}
-            headline = {headline}
-            text = {headline}
+    newsData.map(({ topic, headline, text, id }) => (
+        <InfoBlock
+            topic={topic}
+            headline={headline}
+            text={text}
+            key={id}
         />
     ))
-)
+);
 
-export { News };
+export { News };    
