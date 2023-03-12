@@ -1,8 +1,8 @@
 import { Component } from 'react';
-import { InfoBlock } from './components/InfoBlock';
+import { NewsItems } from './components/NewsItems/NewsItems.js';
 
 
-class NewsItem extends Component {
+class News extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -17,15 +17,15 @@ class NewsItem extends Component {
     };
 
     render() {
-        
         return (
             <div>
                 <button onClick={this.showNews}>Click me</button>
-                {this.state.newsActive ? <InfoBlock/> : null}
+                {this.state.newsActive ? <NewsItems/> : null}
+                
             </div>
         );       
     }
 }
 
 
-export { NewsItem };
+export { News };

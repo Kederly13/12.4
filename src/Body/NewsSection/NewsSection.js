@@ -1,4 +1,4 @@
-import { News } from './components/News.js';
+import { News } from './components/News/News.js';
 
 const NewsSection = () => (
     <section>
