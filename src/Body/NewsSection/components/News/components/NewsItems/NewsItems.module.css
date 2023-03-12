@@ -1,0 +1,6 @@
+.newsBlock {
+    width: 300px;
+    border: 1px solid black;
+    
+    background-color: rgba(6, 130, 115, 0.68);
+}

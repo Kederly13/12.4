@@ -1,0 +1,6 @@
+.News {
+    display: flex;
+    max-width: 1200px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
